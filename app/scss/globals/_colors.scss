@@ -14,7 +14,7 @@
   --top-strip: 225 100% 98%;
   // --card-bg: 228 12% 44%;
   --card-bg: 227 47% 96%;
-  --card-light: 227 47% 96%;
+  --card-light: 232 33% 91%;
   --text-light: 228 12% 44%;
   --text-crl: 230 17% 14%;
   --toogle-bg: hsl(230, 22%, 74%);
@@ -26,11 +26,12 @@
 
 //dark mode
 [data-theme="dark"] {
+  --b: hsl(232, 33%, 91%);
   --bg-color: 230 17% 14%;
   --top-strip: 232 19% 15%;
    --card-bg: 228 28% 20%;
   // --card-bg: ;
-  --card-light: 228 34% 66%;
+  --card-light: 228 26% 27%;
   --text-light: 231 16% 52%;
   --text-clr: 0 0% 100%;
   --timeline: hsl(231 16% 82%) ;

@@ -2,6 +2,13 @@ const themeSwitcherBtn = document.querySelector(".js-theme-toggler");
 
 //get theme from storage and apply it
 const theme = localStorage.getItem("theme") || "light";
+
+if(theme !== "light") {
+    themeSwitcherBtn.classList.add("active"); 
+
+}
+
+
 const htmlElement = document.querySelector("html");
 htmlElement.setAttribute("data-theme", theme);
 
