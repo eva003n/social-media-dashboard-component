@@ -7,8 +7,6 @@ if(theme !== "light") {
     themeSwitcherBtn.classList.add("active"); 
 
 }
-
-
 const htmlElement = document.querySelector("html");
 htmlElement.setAttribute("data-theme", theme);
 

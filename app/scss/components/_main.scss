@@ -29,21 +29,19 @@ a, .card {
   align-self: stretch;
 }
 //theme-toggle component
+button:focus,
+a:focus {
+    outline: 2px solid rgb(97, 97, 215);
+}
 .theme-toggle {
   position: relative;
   background: var(--toogle-bg);
+  padding: .2em;
   width: 40px;
-
   border-radius: 20px;
   align-content: center;
   border: none;
   isolation: isolate;
-}
-
-.theme-toggle:has(label) {
-  // overflow: hidden;
-  padding: 0;
-  // overflow: hidden;
 }
 .theme-toggle::after {
   content: "";
