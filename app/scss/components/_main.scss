@@ -135,6 +135,9 @@ a:focus {
   font-size: 1.8rem;
   margin: 0;
 }
+>.overview-title {
+    align-items: end;
+}
 
 @media screen and (min-width: 37.5em) {
   .dashboard {
